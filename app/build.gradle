@@ -3,11 +3,11 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
 android {
-    namespace 'com.example.crossfittracker'
+    namespace 'com.crossfittracker'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.crossfittracker"
+        applicationId "com.crossfittracker"
         minSdk 21
         targetSdk 34
         versionCode 1

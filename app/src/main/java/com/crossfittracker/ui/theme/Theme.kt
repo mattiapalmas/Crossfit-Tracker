@@ -1,4 +1,4 @@
-package com.example.crossfittracker.ui.theme
+package com.crossfittracker.ui.theme
 
 import android.app.Activity
 import android.os.Build
