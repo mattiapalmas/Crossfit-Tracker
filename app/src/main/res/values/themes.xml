@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.CrossfitTracker" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="MaterialTheme.Launcher" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_default</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_workout</item>
+        <item name="postSplashScreenTheme">@style/Theme.Crossfit.Tracker</item>
+    </style>
+
+    <style name="Theme.Crossfit.Tracker" parent="Theme.AppCompat">
+        <!-- Your theme attributes goes here -->
+    </style>
+
 </resources>
